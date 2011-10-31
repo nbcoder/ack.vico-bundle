@@ -206,7 +206,6 @@
         (arguments addObject:"--column")
         (arguments addObject:"--noenv")
         (arguments addObject:"--nogroup")
-        (arguments addObject:"-a")
         (if (user-defaults boolForKey:"ackSmartCase") (arguments addObject:"--smart-case")
             (else (if (user-defaults boolForKey:"ackIgnoreCase") (arguments addObject:"--ignore-case"))))
         (if (user-defaults boolForKey:"ackMatchWords") (arguments addObject:"--word-regexp"))
